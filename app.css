@@ -47,3 +47,4 @@ body:not(.dev) [data-dev]{display:none}
  body{background:#fff;color:#000;font-size:11pt}main{max-width:none;padding:0}.row{break-inside:avoid;border:1px solid #999!important}
  input,textarea,select{border:none!important;border-bottom:1px solid #999!important;background:none!important;color:#000!important}.ph img{width:45%!important;height:auto!important}}
 .pre{white-space:pre-wrap}.proc summary{font-size:13px;color:var(--mu);cursor:pointer;margin:4px 0}
+.diag{list-style:none;padding:0;margin:8px 0}.diag li{margin:6px 0;font-size:14px}

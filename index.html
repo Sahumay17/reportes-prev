@@ -1,6 +1,5 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0F6E8C"><title>Reportes Preventivo</title>
 <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png"><link rel="stylesheet" href="app.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head><body>
 <header id="phead" class="print-only"><img id="plogo" alt="Holcim"><div id="ptitle"></div></header>
 <main>
@@ -17,4 +16,5 @@
 <button class="btn" id="print" type="button" hidden>Imprimir / guardar como PDF</button>
 <p id="msg" role="status"></p>
 <details><summary>Ajustes: carpeta destino en Drive</summary><label class="fl">Enlace de la carpeta<input id="fol" inputmode="url"></label><p class="m">En la app Android el PDF se sube a esta carpeta. Aquí se comparte o se descarga al equipo.</p></details>
+<details class="noprint" id="offd"><summary>Estado sin conexión (diagnóstico)</summary><div id="offl"></div><div class="tools"><button class="btn" id="offr" type="button">Actualizar estado</button><button class="btn" id="offx" type="button">Reparar: borrar caché y recargar</button></div><p class="m">Reparar no borra sus borradores, fotos ni firmas.</p></details>
 </main><script src="app.js"></script></body></html>
